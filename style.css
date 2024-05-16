@@ -355,31 +355,29 @@ footer {
 
 .about {
   width: 100%;
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
   & .first-details {
-    padding: 40px 180px;
+    padding: 70px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 
-    /* & h1 {
-      width: 600px;
-      font-size: 3rem;
+    & h1 {
       color: #36536b;
-    } */
+    }
 
-    & div {
-      width: 100%;
-      padding: 20px 0;
-
+    & .first-details-container {
       & div {
-        width: 100%;
         & h2 {
           color: #36536b;
         }
 
         & p {
-          font-size: 18px;
-          color: #808487;
-          line-height: 40px;
+          color: #527088;
         }
       }
     }
@@ -388,30 +386,41 @@ footer {
   & .img {
     width: 100%;
 
-    & img {
+    img {
       width: 100%;
     }
   }
 
   & .second-details {
-    padding: 40px 120px;
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
-    & div {
-      /* & p {
-      } */
+    & .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
 
-      & h2 {
-        font-size: 3rem;
-        color: #d55385;
+      & .info {
+        & p {
+          font-weight: 500;
+        }
+
+        & h2 {
+          color: #d55385;
+        }
       }
     }
 
     & .details {
-      padding: 20px 0;
-
-      & div {
-        h2 {
+      & .sing-det {
+        & h2 {
           color: #36536b;
+        }
+
+        & p {
+          color: #527088;
         }
       }
     }
@@ -655,82 +664,16 @@ footer {
   /* Pricing section end */
 
   /* About-section Start */
-
   .about {
     width: 100%;
-    padding: 30px 20px !important;
-    width: 100%;
-    margin-top: 100px;
+    margin: 0px;
 
     & .first-details {
-      width: 100%;
-      padding: 0px !important;
-
-      /* & h1 {
-        font-size: 1.3rem;
-        color: #36536b;
-      } */
-
-      & .first-details-container {
-        width: 100%;
-        padding: 0px !important;
-
-        & div {
-          width: 100%;
-
-          & h2 {
-            width: 100%;
-            font-size: 20px;
-            color: #36536b;
-          }
-
-          & p {
-            width: 100%;
-            font-size: 16px;
-            color: #808487;
-            line-height: 30px;
-          }
-        }
-      }
-    }
-
-    & .img {
-      width: 100%;
-
-      & img {
-        width: 100%;
-      }
+      padding: 20px 20px !important;
     }
 
     & .second-details {
-      padding: 0 !important;
-      width: 100%;
-      text-align: start;
-
-      & div {
-        width: 100%;
-
-        & p {
-          width: 90%;
-        }
-
-        & h2 {
-          font-size: 20px;
-          color: #d55385;
-        }
-      }
-
-      & .details {
-        padding: 0px !important;
-        width: 100%;
-        & div {
-          width: 100%;
-
-          h2 {
-            color: #36536b;
-          }
-        }
-      }
+      padding: 20px 20px !important;
     }
   }
 
