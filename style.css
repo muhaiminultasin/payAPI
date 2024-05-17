@@ -669,11 +669,11 @@ footer {
     margin: 0px;
 
     & .first-details {
-      padding: 20px 20px !important;
+      padding: 10px !important;
     }
 
     & .second-details {
-      padding: 20px 20px !important;
+      padding: 10px !important;
     }
   }
 
