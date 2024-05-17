@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #d2dbe3 !important;
+  z-index: -1;
+}
+
+.navbar {
+  background-color: #d2dbe3;
+  box-shadow: 2px 0 5px gray;
+}
+
+.schedule-btn {
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+  background-color: #da6d97;
+}
+
+.schedule-btn:hover {
+  background-color: #d55385;
+}
+
+.banner-section {
+  position: absolute;
+  width: 100%;
+
+  & .details {
+    margin-top: 200px;
+
+    & h1 {
+      color: #36536B;
+      /* max-width: 400px; */
+      font-weight:600;
+      font-size: 4rem;
+
+      & span{
+        color:#d55385;
+      }
+    }
+
+    & div{
+        width:100%;
+        position:relative;
+
+        & input{
+            width:70%;
+            padding:10px 20px;
+            border:none;
+            border-radius:30px;
+            outline:none;
+           
+        }
+
+        & button{
+            color:white;
+            background-color:#da6d97;
+            padding: 10px 10px;
+            right: 100px;
+            border:none;
+            border-radius:30px;
+            outline:none;
+            position:absolute;
+            transition:all 0.5s;
+        }
+
+        & button:hover{
+          background-color:#d55385;
+        }
+
+    }
+
+    & p{
+      color:gray;
+      padding:10px;
+      text-align:center;
+
+      & a{
+        font-size:18px;
+        text-decoration: none;
+        color:gray;
+        font-weight:600;
+      }
+    }
+  }
+
+  & .img{
+    
+    margin-top: 100px;
+
+    & img{
+        width:70%;
+        margin:0 auto;
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Section start */
+
+
+
+@media screen and (max-width:500px) {
+    
+
+  .banner-section{
+      padding:20px ;
+
+      & .details{
+         margin-top:100px;
+         
+
+          & h1{
+            width:100%;
+              font-size:2rem ;
+              line-height:40px;
+          }
+
+          & div{
+            width:100%;
+           
+
+            & input{
+              width:95%;
+              
+            }
+
+            & button{
+              right:-30px;
+            }
+          }
+      }
+
+      & .img{
+        margin-top:20px;
+
+        & img{
+          width:70%;
+        }
+      }
+  }
+}
