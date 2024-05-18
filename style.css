@@ -349,6 +349,78 @@ footer {
   }
 }
 
+/* Pricing section end  */
+
+/* About section Start */
+
+.about{
+  width:100%;
+  margin-top:100px;
+
+  & .first-details{
+    padding:40px 180px;
+
+    & h1{
+      width:600px;
+      font-size:3rem;
+      color:#36536b;
+    }
+
+    & div{
+      width:100%;
+      padding:20px 0;
+
+      & div{
+
+        & h2{
+          color:#36536b;
+        }
+
+        & p{
+          font-size:18px;
+          color:#808487;
+          line-height:40px;
+        }
+      }
+    }
+  }
+
+  & .img{
+    width:100%;
+
+    & img{
+      width:100%;
+    }
+  }
+
+  & .second-details{
+    padding:40px 120px; 
+
+    & div{
+
+      & p{
+
+      }
+
+      & h2{
+        font-size:3rem;
+        color:#d55385;
+      }
+    }
+
+    & .details{
+      padding:20px 0;
+
+        & div{
+          h2{
+            color:#36536b;
+          }
+        }
+      }
+    }
+  }
+
+
 /* Responsive Section start */
 
 @media screen and (max-width: 500px) {
@@ -459,6 +531,7 @@ footer {
   /* Starting with us section start */
 
   footer {
+    width:100%;
     text-align: center;
 
     & .links {
@@ -486,6 +559,79 @@ footer {
   }
 
   /* Pricing section end */
+
+  /* About-section Start */
+
+  .about{
+    width:100%;
+    margin-top:100px;
+  
+    & .first-details{
+      padding:20px 30px;
+  
+      & h1{
+        width:100%;
+        font-size:2rem;
+        color:#36536b;
+      }
+  
+      & div{
+        padding:20px 0;
+  
+        & div{
+  
+          & h2{
+            color:#36536b;
+          }
+  
+          & p{
+            font-size:18px;
+            color:#808487;
+            line-height:30px;
+          }
+        }
+      }
+    }
+  
+    & .img{
+      width:100%;
+  
+      & img{
+        width:100%;
+      }
+    }
+  
+    & .second-details{
+      text-align:center;
+      padding:40px 20px; 
+  
+      & div{
+        padding:20px 0;
+  
+        & p{
+  
+        }
+  
+        & h2{
+          font-size:3rem;
+          color:#d55385;
+        }
+      }
+  
+      & .details{
+        padding:20px 0;
+  
+          & div{
+            h2{
+              color:#36536b;
+            }
+          }
+        }
+      }
+    }
+
+
+  /* About-section end */
 
   /* Responsive Area end  */
 }
