@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payAPI-pricing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">payAPI</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end bg-dark text-white"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              style="color: white"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body mx-auto">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white text-center"
+                  aria-current="page"
+                  href="pricing.html"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-center" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-center" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="schedule-btn mt-3">
+              Schedule a Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <div class="plans row">
+        <div class="plan col-md-4">
+          <h3>Free plan</h3>
+          <p>
+            Build and test using our core set of products with up to 100 API
+            requests
+          </p>
+          <h1>$0.00</h1>
+
+          <ul>
+            <li>Transaction</li>
+            <li>Auth</li>
+            <li>Identity</li>
+            <li>Invesments</li>
+            <li>Assets</li>
+            <li>Liabilities</li>
+            <li>Income</li>
+          </ul>
+
+          <button>Request Access</button>
+        </div>
+
+        <div class="plan col-md-4">
+          <h3>Basic plan</h3>
+          <p>
+            Build and test using our core set of products with up to 100 API
+            requests
+          </p>
+          <h1>$299.00</h1>
+
+          <ul>
+            <li>Transaction</li>
+            <li>Auth</li>
+            <li>Identity</li>
+            <li>Invesments</li>
+            <li>Assets</li>
+            <li>Liabilities</li>
+            <li>Income</li>
+          </ul>
+
+          <button>Request Access</button>
+        </div>
+
+        <div class="plan col-md-4">
+          <h3>Premium plan</h3>
+          <p>
+            Build and test using our core set of products with up to 100 API
+            requests
+          </p>
+          <h1>$449.00</h1>
+
+          <ul>
+            <li>Transaction</li>
+            <li>Auth</li>
+            <li>Identity</li>
+            <li>Invesments</li>
+            <li>Assets</li>
+            <li>Liabilities</li>
+            <li>Income</li>
+          </ul>
+
+          <button>Request Access</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing section start -->
+
+    <!-- join with section start -->
+
+    <section class="starting-with-us row d-flex justify-content-around">
+      <div class="text col-md-4">
+        <h1>Ready to start?</h1>
+      </div>
+      <div class="input-box col-md-5 d-flex">
+        <input type="text" placeholder="Enter email address" />
+        <button>Schedule a demo</button>
+      </div>
+    </section>
+
+    <!-- join with section end -->
+
+    <!-- footer Section Start -->
+
+    <footer class="row d-flex justify-content-around">
+      <div class="logo col-md-1">
+        <h2>payApi</h2>
+      </div>
+      <div class="links col-md-5">
+        <ul>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="icons col-md-3">
+        <ul>
+          <li><i class="fa-brands fa-square-facebook"></i></li>
+          <li><i class="fa-brands fa-square-twitter"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Script Files -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

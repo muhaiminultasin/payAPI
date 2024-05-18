@@ -32,6 +32,8 @@ body {
 
 /* Navbar end */
 
+/* Home page start  */
+
 /* Banner Section Start */
 
 .banner-section {
@@ -290,6 +292,63 @@ footer {
   }
 }
 
+/* Home page end */
+
+/* Pricig page start */
+
+/* Pricig section start */
+
+.pricing {
+  padding: 20px 80px;
+  margin-top: 100px;
+
+  & h2 {
+    color: #36536b;
+    font-size: 3rem;
+  }
+
+  & .plans {
+    width: 100%;
+    padding: 40px 0;
+
+    & .plan {
+      & h3 {
+        padding: 20px 0;
+        color: #d55385;
+      }
+
+      & p {
+        color: rgb(165, 164, 164);
+      }
+
+      & h1 {
+        color: #36536b;
+        padding: 20px 0;
+        border-bottom: 2px solid #36536b;
+      }
+
+      & ul {
+        padding: 30px 0;
+        line-height: 40px;
+        border-bottom: 2px solid #36536b;
+
+        & li {
+          list-style: none;
+        }
+      }
+    }
+
+    & button {
+      color: #36536b;
+      outline: none;
+      border: 1px solid #36536b;
+      border-radius: 30px;
+      padding: 10px 25px;
+      background: transparent;
+    }
+  }
+}
+
 /* Responsive Section start */
 
 @media screen and (max-width: 500px) {
@@ -402,8 +461,8 @@ footer {
   footer {
     text-align: center;
 
-    & .links{
-      & ul{
+    & .links {
+      & ul {
         display: flex;
         justify-content: center;
       }
@@ -416,6 +475,17 @@ footer {
       }
     }
   }
+
+  /* Footer Section End */
+
+  /* Pricing section start */
+
+  .pricing {
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  /* Pricing section end */
 
   /* Responsive Area end  */
 }
