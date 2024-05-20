@@ -353,73 +353,169 @@ footer {
 
 /* About section Start */
 
-.about{
-  width:100%;
-  margin-top:100px;
+.about {
+  width: 100%;
+  margin-top: 100px;
 
-  & .first-details{
-    padding:40px 180px;
+  & .first-details {
+    padding: 40px 180px;
 
-    & h1{
-      width:600px;
-      font-size:3rem;
-      color:#36536b;
+    & h1 {
+      width: 600px;
+      font-size: 3rem;
+      color: #36536b;
     }
 
-    & div{
-      width:100%;
-      padding:20px 0;
+    & div {
+      width: 100%;
+      padding: 20px 0;
 
-      & div{
-
-        & h2{
-          color:#36536b;
+      & div {
+        & h2 {
+          color: #36536b;
         }
 
-        & p{
-          font-size:18px;
-          color:#808487;
-          line-height:40px;
+        & p {
+          font-size: 18px;
+          color: #808487;
+          line-height: 40px;
         }
       }
     }
   }
 
-  & .img{
-    width:100%;
+  & .img {
+    width: 100%;
 
-    & img{
-      width:100%;
+    & img {
+      width: 100%;
     }
   }
 
-  & .second-details{
-    padding:40px 120px; 
+  & .second-details {
+    padding: 40px 120px;
 
-    & div{
+    & div {
+      & p {
+      }
+
+      & h2 {
+        font-size: 3rem;
+        color: #d55385;
+      }
+    }
+
+    & .details {
+      padding: 20px 0;
+
+      & div {
+        h2 {
+          color: #36536b;
+        }
+      }
+    }
+  }
+}
+
+/* Contact page start form here */
+
+.contact-section {
+  padding: 100px 50px;
+  h1 {
+    width: 500px;
+    font-size: 2.6rem;
+    color: #36536b;
+    margin: 48px 0;
+  }
+
+  .contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & .left-side {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-direction: column;
+
+     & input{
+      width:90%;
+      outline:none;
+      border:none;
+      padding:12px 20px;
+      background-color:transparent;
+      border-bottom:1px solid #36536b;
+     }
+
+     & textarea{
+      width:90%;
+      outline:none;
+      border:none;
+      padding:12px 20px;
+      max-height:300px;
+      background-color:transparent;
+      border-bottom:1px solid #36536b;
+     }
+
+     & .label{
+      width:90%;
+      height:250px;
+      display:flex;
+      align-items:center;
+      position:relative;
+
+      & input{
+        width:30px;
+        height:30px;
+        background-color: #808487;  
+      }
 
       & p{
-
+        color:#36536b;
+        font-weight:500;
+        padding:0 20px;
       }
 
-      & h2{
-        font-size:3rem;
-        color:#d55385;
+      & button{
+        position:absolute;
+        padding:15px 32px;
+        outline:none;
+        border:none;
+        background-color:transparent;
+        border:1px solid #36536b;
+        border-radius:30px;
+        left:0;
+        bottom:0;
+        transition:all 0.5s;
+       }
+
+      & button:hover{
+        background-color:#36536b;
+        color:white;
       }
+     }
+
+     
     }
 
-    & .details{
-      padding:20px 0;
+    & .right-side{
+      display:flex;
+      align-items:center;
+      flex-direction:column;
 
-        & div{
-          h2{
-            color:#36536b;
-          }
-        }
+      & p{
+        color:#36536b;
+        font-weight:500;
+      }
+
+      & .icons{
+        padding:40px 10px;
       }
     }
   }
-
+}
 
 /* Responsive Section start */
 
@@ -531,7 +627,7 @@ footer {
   /* Starting with us section start */
 
   footer {
-    width:100%;
+    width: 100%;
     text-align: center;
 
     & .links {
@@ -562,76 +658,85 @@ footer {
 
   /* About-section Start */
 
-  .about{
+  .about {
+    width: 100%;
+    margin-top: 100px;
+
+    & .first-details {
+      padding: 20px 30px;
+
+      & h1 {
+        width: 100%;
+        font-size: 2rem;
+        color: #36536b;
+      }
+
+      & div {
+        padding: 20px 0;
+
+        & div {
+          & h2 {
+            color: #36536b;
+          }
+
+          & p {
+            font-size: 18px;
+            color: #808487;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+
+    & .img {
+      width: 100%;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .second-details {
+      text-align: center;
+      padding: 40px 20px;
+
+      & div {
+        padding: 20px 0;
+
+        & p {
+        }
+
+        & h2 {
+          font-size: 3rem;
+          color: #d55385;
+        }
+      }
+
+      & .details {
+        padding: 20px 0;
+
+        & div {
+          h2 {
+            color: #36536b;
+          }
+        }
+      }
+    }
+  }
+
+  /* About-page end */
+
+  /* Contact page start form here */
+
+  .contact-section{
     width:100%;
-    margin-top:100px;
-  
-    & .first-details{
-      padding:20px 30px;
-  
-      & h1{
-        width:100%;
-        font-size:2rem;
-        color:#36536b;
-      }
-  
-      & div{
-        padding:20px 0;
-  
-        & div{
-  
-          & h2{
-            color:#36536b;
-          }
-  
-          & p{
-            font-size:18px;
-            color:#808487;
-            line-height:30px;
-          }
-        }
-      }
+    padding:30px 20px;
+    
+    & h1{
+      width:200px;
+      font-size:1.1rem;
     }
-  
-    & .img{
-      width:100%;
-  
-      & img{
-        width:100%;
-      }
-    }
-  
-    & .second-details{
-      text-align:center;
-      padding:40px 20px; 
-  
-      & div{
-        padding:20px 0;
-  
-        & p{
-  
-        }
-  
-        & h2{
-          font-size:3rem;
-          color:#d55385;
-        }
-      }
-  
-      & .details{
-        padding:20px 0;
-  
-          & div{
-            h2{
-              color:#36536b;
-            }
-          }
-        }
-      }
-    }
-
-
-  /* About-section end */
+  }
 
   /* Responsive Area end  */
 }
