@@ -360,17 +360,18 @@ footer {
   & .first-details {
     padding: 40px 180px;
 
-    & h1 {
+    /* & h1 {
       width: 600px;
       font-size: 3rem;
       color: #36536b;
-    }
+    } */
 
     & div {
       width: 100%;
       padding: 20px 0;
 
       & div {
+        width: 100%;
         & h2 {
           color: #36536b;
         }
@@ -396,8 +397,8 @@ footer {
     padding: 40px 120px;
 
     & div {
-      & p {
-      }
+      /* & p {
+      } */
 
       & h2 {
         font-size: 3rem;
@@ -656,26 +657,29 @@ footer {
   /* About-section Start */
 
   .about {
-    padding: 30px 0px;
+    width: 100%;
+    padding: 30px 20px !important;
     width: 100%;
     margin-top: 100px;
 
     & .first-details {
-      padding: 10px 20px;
+      width: 100%;
+      padding: 0px !important;
 
-      & h1 {
+      /* & h1 {
         font-size: 1.3rem;
         color: #36536b;
-      }
+      } */
 
-      & div {
+      & .first-details-container {
         width: 100%;
-        padding: 0px;
+        padding: 0px !important;
 
         & div {
           width: 100%;
 
           & h2 {
+            width: 100%;
             font-size: 20px;
             color: #36536b;
           }
@@ -699,7 +703,7 @@ footer {
     }
 
     & .second-details {
-      padding: 20px 10px;
+      padding: 0 !important;
       width: 100%;
       text-align: start;
 
@@ -717,7 +721,11 @@ footer {
       }
 
       & .details {
+        padding: 0px !important;
+        width: 100%;
         & div {
+          width: 100%;
+
           h2 {
             color: #36536b;
           }
